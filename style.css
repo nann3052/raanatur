@@ -30,6 +30,26 @@
 	.footer-widgets h4 {
 		font-family: Quicksand,Helvetica Neue,Helvetica,sans-serif;
     }
+
+    /*----- Scroll bar styling -----*/
+    ::-webkit-scrollbar {
+
+        width: 15px;
+    }
+    /*- Bane - */
+    ::-webkit-scrollbar-track {
+
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 2px;
+    }
+    /* -- Håndtag --*/
+    ::-webkit-scrollbar-thumb {
+        background: #606b6f; 
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #333c3e;
+    }
     
 
     /*----- Main page ----*/
@@ -121,13 +141,76 @@
 	}
 
 
-    
     /* --- Nyhedsbrev sektion ----*/
     .section{
 		background-color:#606b6f;
 		color:#f0efee;
 		text-align:left;
-	}
+    }
+    
 
+
+    /*----------------- Shop page ----------------*/
+    /*-- Woocommerce + WP prædefinerede classes blev brugt --*/
+
+    .wp-block-woocommerce-product-search{
+		width:30%;
+		text-align:left;
+		margin: 0 auto 0 5%;
+		
+	}
+	.wc-block-components-sort-select__select {
+		margin: 0 auto 0 5%;
+	}
+	.post-content ul:not(.order-items) li {
+		list-style-type:none;
+	}
+	#page-11 h1 {
+		color:#606b6f;
+		text-align:center;
+	}
+	.shop-kategori {
+		color:#f0efee;
+		width:100%;
+		margin:auto;
+		display:block;
+
+	}
+	
+	.shop-kategori ul{
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:center;
+		width:100%;
+		text-align:center;
+		margin: 0 auto;
+	
+	}
+	.shop-kategori ul li{
+		font-size:1.4em;
+		width:15%;
+		margin:0 5%;
+		padding:1% 1%;
+		text-align:center;
+		color:#f0efee;
+		background-color:#606b6f;
+		border-radius:5%;
+	}
+	.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering  {
+		float:left;
+	}
+	.woocommerce .woocommerce-result-count {
+		margin: 0 2% 0 5%;
+	}
+	.term-description {
+		margin: 0 5%;
+	}
+	.banner.internal-banner {
+		display:none;
+    }
+    
+    /*--------------------- OM RÅ NATUR page ----------------*/
+    
 
 	
