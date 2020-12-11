@@ -1,5 +1,14 @@
-
-	/*--- Navigation bar ---*/
+html {
+        scroll-behavior: smooth;
+}
+	.page-content h1 {
+		text-align:center;
+        color:#606b6f;
+    }
+	
+	
+    
+    /*--- Navigation bar ---*/
 	#primary-nav{
 		padding-right:20%;
 		
@@ -211,6 +220,139 @@
     }
     
     /*--------------------- OM RÅ NATUR page ----------------*/
+    .video-text-section {
+		width:100vw;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		padding:0 15%;
+	}
+	.about-video {
+		width:50%;
+	}
+	.innovativ-text{
+		width:50%;
+		text-align:center;
+		
+	}
+	.video-text-section h2,.video-text-section p{
+		padding:0 0 5% 0;
+	}
+	.shop-button a {
+		text-decoration:none;
+		color:#f0efee;
+	}
+	.shop-button a:visited {
+		color:#f0efee;
+	}
+	.shop-button {
+		border-radius:10%;
+		width:150px;
+		background-color:#6baa75;
+		color:#f0efee;
+		padding:2% 5%;
+		transition: 0.2s ease;
+	}
+	.shop-button:hover {
+		color:#f0efee;
+	}
+	
+	/* Benefits picture */ 
+	.fordele-pic img {
+		max-width:100vw;
+		margin:auto;
+		display:block;
+	}
+	.fordele-pic {
+		margin:10% auto auto auto;
+	}
+	
+	.about-text-section {
+		width:100vw;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		padding:0 15%;
+		margin:10% auto auto auto;
+	}
+	.about-text {
+		width:50%;
+		text-align:center;
+		padding:0 5%;
+	}
+	.about-text-section h2,.about-text-section p{
+		padding:0 auto 5% auto;
+	}
+	.about-us-img {
+		width:50%;
+	}
+	
+	.about-galleri {
+		width:100vw;
+		margin:10% auto auto auto;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+	}
+	.about-galleri h2 {
+		text-align:center;
+		margin:auto auto 5% auto;
+		display:block;
+	}
+	.post-content ul:not(.order-items){
+		padding:0 5%;
+	}
+	.byg-img {
+		transition:0.5s ease;
+	}
+	.byg-img:hover {
+		border:solid 1px #6baa75;
+    }
     
+    /*-------------------- Inspiration side --------------*/
+    .inspiration-galleri {
+		width:80%;
+		margin:auto;
+	}
+	.blocks-gallery-item img {
+		transition: 0.2 ease;
+		width:100%;
+	}
+	.blocks-gallery-item img:hover {
+		width:99%;
+    }
+    
+    /*---------------------- Kontakt side -------------*/
+    .kontakt-h2 {
+		margin: 0 auto 5% auto;
+	}
+	.kontakt-h3 {
+		margin-right:32%;
+	}
+	
+	.cpt-custom-fields, .contact_fields {
+		width:60%;
+		margin: auto 0 auto auto;
+	}
+	.field-block {
+		width:30%;
+	}
+	.kontakt-image {
+		float:left;
+		margin: auto 0 auto 5%;
+	}
+	.field-block h5.cursive-font {
+		color:#6baa75;
+	}
+	.col-md-12 {
+		width:20%;
+	}
+	
+	.contact-form{
+		width:40%;
+		margin:auto;
+		display:block;
+	}
+	/*---------
 
 	
